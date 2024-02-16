@@ -1,0 +1,6 @@
+[submodule "dymo-pnp/dymo-pnp"]
+	path = dymo-pnp/dymo-pnp
+	url = https://github.com/niclasgrunau/dymo-pnp.git
+[submodule "dymo-pnp-local/dymo-pnp-local"]
+	path = dymo-pnp-local/dymo-pnp-local
+	url = https://github.com/niclasgrunau/dymo-pnp-local.git

@@ -21,12 +21,32 @@ Clone the following project to your local machine:
 git clone https://github.com/niclasgrunau/dymo-pnp-local.git
 ```
 
+To prevent errors, you might install express and cors before running the server:
+
+```bash
+npm install express
+npm install cors
+```
+
 Navigate to the root directory of the project and start local server:
 
 ```bash
 cd dymo-pnp-local
 node localServer.js
 ```
+
+Also, you need to install 2 essential packages.
+
+#### ImageMagick
+
+ImageMagick is a powerful software suite used for manipulating images. It is employed to resize labels to a fitting size for the DYMO PNP LabelManager without compromising quality. You can download it from [here](https://imagemagick.org/script/download.php).
+
+#### CUPS
+
+CUPS (Common Unix Printing System) is a printing system for Unix-like operating systems, including Linux and MacOS. It facilitates printing tasks and is utilized to print labels via a shell script in this application. You can find instructions for downloading it for [Linux](https://ubuntu.com/server/docs/service-cups), [MacOS](https://x-series-support.lightspeedhq.com/hc/en-us/articles/205052024-Enabling-CUPS-Printer-Interface-for-Mac) or [Windows](https://project-insanity.org/2022/11/01/use-cups-printing-server-on-windows-10/).
+
+
+
 
 ### Remote server
 

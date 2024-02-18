@@ -6,6 +6,8 @@ This project introduces a comprehensive web application built on the MERN (Mongo
 
 The application architecture is divided into two main components: a Node.js backend serving as the server-side logic and API endpoints, and a React frontend offering an intuitive user interface for label customization and management. Additionally, a local server component facilitates the direct connection to a DYMO PNP LabelManager device for printing commands.
 
+This version of the project needs to be run both on a local and remote server. For more details, check out the two repositories that are needed to deploy this project: the [local server](https://github.com/niclasgrunau/dymo-pnp-local.git) and the [main application](https://github.com/niclasgrunau/dymo-pnp.git).
+
 
 ## Deployment
 

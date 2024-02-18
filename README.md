@@ -76,15 +76,4 @@ cd ../backend
 npm start
 ```
 
-
-
-
-Navigate to the backend and start it:
-
-```bash
-cd dymo-pnp/backend
-npm start
-```
-
-
-
+Now, the web application will run [on the server port](https://lehre.bpm.in.tum.de/ports/6982/) and [here](https://lehre.bpm.in.tum.de/~ge83neb/dymo-pnp/frontend/build/).

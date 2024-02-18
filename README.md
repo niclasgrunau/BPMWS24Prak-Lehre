@@ -13,7 +13,7 @@ The frontend is already deployed on the [lehre server](https://lehre.bpm.in.tum.
 
 ### Local server
 
-Clone this project to your local machine:
+Clone the following project to your local machine:
 
 ```bash
 git clone https://github.com/niclasgrunau/dymo-pnp-local.git
@@ -36,7 +36,7 @@ If you are able to run "npm start" on [https://lehre.bpm.in.tum.de/~ge83neb/dymo
 
 First, connect via SSH to the [lehre server](https://lehre.bpm.in.tum.de/) and change to a directory where you want to save the project.
 
-Then, clone this project to your server index:
+Then, clone the following project to your server index:
 
 ```bash
 git clone https://github.com/niclasgrunau/dymo-pnp.git

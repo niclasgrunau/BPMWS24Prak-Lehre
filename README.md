@@ -24,6 +24,7 @@ git clone https://github.com/niclasgrunau/dymo-pnp-local.git
 To prevent errors, you might install express and cors before running the server:
 
 ```bash
+cd dymo-pnp-local
 npm install express
 npm install cors
 ```
@@ -31,7 +32,6 @@ npm install cors
 Navigate to the root directory of the project and start local server:
 
 ```bash
-cd dymo-pnp-local
 node localServer.js
 ```
 
